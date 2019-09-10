@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Upload documents</string>
+    <string name="Serial_number">营业执照号：123123123123123</string>
+    <string name="license">许可证号：13123123123123123123</string>
+    <string name="License_upload">许可证上传</string>
+    <string name="business">营业执照上传</string>
+</resources>

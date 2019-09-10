@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/business"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="@string/business"
+        android:textSize="40dp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/et_Serial"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/business"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/yuan"
+        android:text="@string/Serial_number" />
+
+    <FrameLayout
+        android:id="@+id/fl_business_license"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/et_Serial"
+        android:layout_marginLeft="20dp"
+        android:background="@color/gray">
+
+        <ImageView
+            android:scaleType="centerCrop"
+            android:id="@+id/iv_Open_photos"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:background="@mipmap/license" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/License_upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/License_upload"
+        android:layout_below="@id/fl_business_license"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:textSize="40dp"/>
+
+    <TextView
+        android:id="@+id/License"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/license"
+        android:layout_below="@id/License_upload"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/yuan"/>
+    <FrameLayout
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/License"
+        android:layout_marginLeft="20dp"
+        android:background="@color/gray"
+      >
+
+        <ImageView
+            android:scaleType="centerCrop"
+            android:id="@+id/Permit_photo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:background="@mipmap/license" />
+
+    </FrameLayout>
+
+
+</RelativeLayout>
