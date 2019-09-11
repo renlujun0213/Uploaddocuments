@@ -17,7 +17,7 @@
 
     <TextView
         android:id="@+id/et_Serial"
-        android:layout_width="300dp"
+        android:layout_width="@dimen/sanshi"
         android:layout_height="wrap_content"
         android:layout_below="@id/business"
         android:layout_marginLeft="20dp"
